@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     /* border: 1px solid red; */
 }
 
+  
 body {
     font-family: 'Roboto', sans-serif, Arial;
     /* background-color: #1f2937; */
@@ -76,8 +81,8 @@ button {
     width: 120px;
     background-color: #3882f6;
     color: #f9faf8;
-    border-radius: 5px;
-    padding: 7px 10px;
+    border-radius: 7px;
+    padding: 7px 18px;
     font-weight: 700;
     border: none;
 }
@@ -118,7 +123,7 @@ button {
     color: #000000a8;
     margin-bottom: 150px;
 }
-p {
+.g-t {
     width: 230px;
 }
 
@@ -127,4 +132,79 @@ p {
     font-weight: 900;
     color: #1f2937;
     margin: 50px 0 0px 0;
+}
+
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 150px 200px 0 200px;
+    width: 800px;
+}
+
+.second-quote {
+    display: flex;
+    /* justify-content: space-around; */
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 500px;
+    margin-bottom: 150px;
+}
+
+.call-action-section {
+    /* display: flex; */
+}
+
+.call-action-text-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    border-radius: 7px;
+    width: 1000px;
+    font-size: 18px;
+}
+
+.header-quote {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px 50px 0px;
+    width: 650px;
+    gap: 5px;
+
+}
+
+.button-two {
+    border: 2px solid white;
+    border-radius: 7px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 40px;
+    font-size: 17px;
 }
